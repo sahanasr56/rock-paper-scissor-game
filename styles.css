@@ -18,6 +18,10 @@ body{
     align-items: center;
     gap: 40px;
     margin-top: 40px;
+
+    @media screen and (max-width:992px) {
+        gap: 25px;
+    }
 }
 
 .choice{
@@ -27,6 +31,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width:992px) {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .choice:hover{
@@ -39,6 +48,11 @@ img{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+
+    @media screen and (max-width:992px) {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .score-board{
